@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,inital-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>College Website</title>
+      <link rel="stylesheet" href="style.css">
+   
+    </head>
+    <body>
+        <!-- header -->
+       <section class="sub-header">
+        <!-- nav bar -->
+       <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-sharp fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+       </nav>
+
+      <h1>Our Courses</h1>
+    </section>
+    <!-- Course -->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+         
+        <div class="row">
+        <div class="course-col">
+        <h3>Intermediate</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus pariatur dolore tenetur reiciendis, numquam natus magnam beatae cupiditate alias sequi.</p>
+        </div>
+
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Deleniti blanditiis velit aperiam, doloremque amet illum explicabo voluptates quasi veritatis fugit, animi libero asperiores temporibus omnis? Ut, alias unde.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Quod dicta, sapiente ab ut voluptates odit ipsum eos earum modi nihil sunt soluta! Explicabo omnis sunt quam dolor hic?</p>
+                </div>
+    </div>
+    </section>
+    <!-- facilities -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    
+         <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam eaque nisi cumque rem, explicabo tempore!</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/basketball.png">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt aliquid ratione temporibus architecto a maxime?</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus deleniti accusamus voluptas possimus aliquam facilis?</p>
+            </div>
+         </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>For More Info Contact Us Via Our Social Media Accouts.</p>
+       <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-youtube"></i>
+     </div>
+
+        <p>Made with <i class="fa-regular fa-heart"></i> by Champion Vikash</p>
+    </section>
+
+
+
+
+
+
+
+       <script src="https://kit.fontawesome.com/0dbfbf06cb.js" crossorigin="anonymous"></script>
+        <!-- javascript for toggle menu -->
+       <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right ="0";
+              }
+              function hideMenu(){
+                navLinks.style.right ="-200px";
+              }
+        </script>
+
+        
+    </body>
+    </html>

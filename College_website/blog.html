@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,inital-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>College Website</title>
+      <link rel="stylesheet" href="style.css">
+   
+    </head>
+    <body>
+        <!-- header -->
+       <section class="sub-header">
+        <!-- nav bar -->
+       <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-sharp fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+       </nav>
+
+      <h1> Our Certificate & Online Programs For 2022</h1>
+    </section>
+    <!-- Blog page -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="certificate.jpg">
+                <h2>Our Certificate & Online Programs For 2022</h2>
+                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque nulla repellendus veritatis nihil autem dicta molestiae voluptatibus ex expedita suscipit quidem assumenda laboriosam, dolorem dolor error soluta numquam magnam praesentium reprehenderit recusandae earum neque aliquam odit voluptas. Quos mollitia odio vero eius quidem. Amet officia ipsum saepe vero eius doloremque!</p><br>
+                 <p>Laborum unde omnis distinctio nemo impedit eligendi quis aperiam, corrupti ut fugiat consequatur provident, libero earum eveniet sapiente aut delectus vero ipsa quae explicabo dolor laboriosam repellat. Recusandae animi nam eaque fugit sint, eligendi placeat, possimus temporibus earum pariatur odit ipsum neque, tempore quia magnam omnis eveniet magni consequuntur dolor?</p><br>
+                 <p>Natus odio esse ad debitis quam laudantium aliquam nihil, quis quibusdam eum perferendis suscipit expedita optio asperiores temporibus, assumenda numquam? Amet aliquid iure illum, blanditiis provident quo nostrum laborum perferendis nisi fugit nemo ipsa quidem alias natus? Id rem tenetur, voluptatum doloremque, consectetur eveniet excepturi, consequatur ea magni aut repudiandae.</p><br>
+                 <p>Porro laborum eaque dolore! Eveniet voluptatibus sapiente debitis dolorem minima quisquam, assumenda et laudantium vero voluptas fuga corporis quia nihil! Libero ipsum sequi in illum similique iste magni officiis natus, odit maiores iure non obcaecati tenetur cum, eius et dolores veniam? Blanditiis labore eum voluptate doloribus magnam ipsa atque ipsum?</p><br>
+                 <p>Nostrum pariatur maxime eligendi quis quam nisi laborum! Accusamus omnis beatae, velit cum deleniti neque. Magnam vitae hic odio reiciendis impedit sapiente quidem doloremque unde quos accusamus! Ipsa placeat sunt, eaque officiis quidem aliquid quisquam recusandae rerum saepe praesentium laboriosam nesciunt. Nisi deleniti debitis non dolorum eius. Non, repellat cumque!</p>
+               <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment">
+                    </textarea>
+                   <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+               </div>
+            </div>
+            <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+                <div>
+                    <span>Data Science</span>
+                <span>28</span>
+
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                     <span>15</span>
+
+                </div>
+                <div> 
+                    <span>Computer Science</span>
+                    <span>34</span>
+
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                     <span>42</span>
+
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+
+                </div>
+
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>For More Info Contact Us Via Our Social Media Accouts.</p>
+       <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-youtube"></i>
+     </div>
+
+        <p>Made with <i class="fa-regular fa-heart"></i> by Champion Vikash</p>
+    </section>
+
+
+
+
+
+
+
+       <script src="https://kit.fontawesome.com/0dbfbf06cb.js" crossorigin="anonymous"></script>
+        <!-- javascript for toggle menu -->
+       <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right ="0";
+              }
+              function hideMenu(){
+                navLinks.style.right ="-200px";
+              }
+        </script>
+
+        
+    </body>
+    </html>

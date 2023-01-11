@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,inital-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>College Website</title>
+      <link rel="stylesheet" href="style.css">
+   
+    </head>
+    <body>
+        <!-- header -->
+       <section class="sub-header" >
+        <!-- nav bar -->
+       <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-sharp fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+       </nav>
+
+      <h1>About Us</h1>
+    </section>
+     <!-- About Us Content -->
+     <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+              <h1>We are the World's largest University</h1>
+              <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, libero. Quibusdam, reprehenderit fuga saepe voluptas debitis eaque, error cum aut culpa, iste aperiam modi consequuntur nobis corporis vitae sit atque. Neque natus perferendis, odit placeat provident libero quo repellat enim itaque esse rem earum magnam optio et saepe, aut porro.</P>
+            <a href="" class="hero-btn red-btn">Explore Now</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg">
+            </div>
+        </div>
+     </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>For More Info Contact Us Via Our Social Media Accouts.</p>
+       <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-youtube"></i>
+     </div>
+
+        <p>Made with <i class="fa-regular fa-heart"></i> by Champion Vikash</p>
+    </section>
+
+
+
+
+
+
+
+       <script src="https://kit.fontawesome.com/0dbfbf06cb.js" crossorigin="anonymous"></script>
+        <!-- javascript for toggle menu -->
+       <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right ="0";
+              }
+              function hideMenu(){
+                navLinks.style.right ="-200px";
+              }
+        </script>
+
+        
+    </body>
+    </html>
